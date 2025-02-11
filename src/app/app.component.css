@@ -1,0 +1,18 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-area-container {
+    height: 80vh;
+    ;
+}
+
+.character-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    position: sticky;
+    bottom: -12px;
+    right: 10px;
+}
